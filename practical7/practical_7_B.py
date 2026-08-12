@@ -3,7 +3,7 @@ try:
     b = int(input("Enter second number: "))
 
     result = a / b
-    print("Result:", result)
+    print("Result obtained is : ", result)
 
 except ValueError:
     print("Error: Please enter valid integers.")
