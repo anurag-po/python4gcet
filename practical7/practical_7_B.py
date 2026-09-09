@@ -5,12 +5,6 @@ try:
     result = a / b
     print("Result obtained is : ", result)
 
-except ValueError:
-    print("Error: Please enter valid integers.")
-
-except ZeroDivisionError:
-    print("Error: Division by zero is not allowed.")
-
 except Exception as e:
     print("Unexpected error:", e)
 
