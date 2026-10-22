@@ -1,8 +1,2 @@
-grade = int(input())
-
-if grade > 90: print("A")
-elif grade > 80: print("B")
-elif grade > 60: print("C")
-elif grade > 30: print("D")
-else: print("F")
-  
+m = int(input("Enter marks: "))
+print("Grade:", "A" if m >= 90 else "B" if m >= 75 else "C" if m >= 50 else "F")
